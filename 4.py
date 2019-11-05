@@ -4,7 +4,7 @@ def nummers():
     input:
     cijfer - float
     uitput:
-    return aantalcijfers, cijerlijst
+    return aantalcijfers, cijerlijst - list
     """
     aantalcijfers = 5
     cijferlijst = []
@@ -22,7 +22,7 @@ def gemiddeldeberekenen(aantalcijfers, cijferlijst):
     aantalcijfers - int
     cijferlijst - list
     output: 
-    return gemiddelde
+    return gemiddelde - float
     """
     gemiddelde = (sum(cijferlijst)/aantalcijfers)
     return gemiddelde
