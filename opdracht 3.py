@@ -18,7 +18,7 @@ def lees_inhoud(bestandnaam):
 
 
 def match(namenlijst, knipplekken, sequentie):
-    """Gaat de sequentie na en kijkt of de sequentie matched met een knipplek. Hij kijkt ook welke naam bij welke knipplek hoort.
+    """gaat de sequentie na en kijkt of de sequentie matched met een knipplek. Hij kijkt ook welke naam bij welke knipplek hoort.
     
     input:
     namenlijst, knipplekken - list
