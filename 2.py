@@ -6,7 +6,7 @@ def randomgetalmaken():
     
     input:
     output:
-    return randomgetal
+    return randomgetal - int
     """
     randomgetal = random.randint(0,9)
     return randomgetal
@@ -17,7 +17,7 @@ def listmaken(maken):
     input: 
     maken - string
     output: 
-    return loterijnummer
+    return loterijnummer - list
 """
     lotterynumber = []    
     if maken == "y":
