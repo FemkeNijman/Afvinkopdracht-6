@@ -2,15 +2,22 @@ import random
 
 
 def randomgetalmaken():
+    """maakt een random getal tussen 0 en 9
+    
+    input:
+    output:
+    return randomgetal
     """
-output: een random getal tussen 0 en 9
-"""
     randomgetal = random.randint(0,9)
     return randomgetal
 
 def listmaken(maken):
-    """input: maken, antwoord op de vraag of er een loterijnummer gemaakt moet worden
-output: loterijnummer
+    """wanneer het antwoord "y" is wordt er een lotterynumber met random getallen gemaakt door deze aan een list toe te voegen.
+    
+    input: 
+    maken - string
+    output: 
+    return loterijnummer
 """
     lotterynumber = []    
     if maken == "y":
