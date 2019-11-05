@@ -1,8 +1,11 @@
 def nummers():
+    """Vraagt 5x een cijfer en zet deze in een list genaamd cijferlijst
+    
+    input:
+    cijfer - float
+    uitput:
+    return aantalcijfers, cijerlijst
     """
-input: een gekozen cijfer
-uitput: aantalcijfers en cijferlijst
-"""
     aantalcijfers = 5
     cijferlijst = []
     for i in range(aantalcijfers):
@@ -13,9 +16,14 @@ uitput: aantalcijfers en cijferlijst
     return aantalcijfers, cijferlijst
 
 def gemiddeldeberekenen(aantalcijfers, cijferlijst):
-    """input: aantalcijfers en cijferlijst
-output: het berekende gemiddelde van de lijst
-"""
+    """berekent het gemiddelde van de cijfers in de cijferlijst
+    
+    input:
+    aantalcijfers - int
+    cijferlijst - list
+    output: 
+    return gemiddelde
+    """
     gemiddelde = (sum(cijferlijst)/aantalcijfers)
     return gemiddelde
 
