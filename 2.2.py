@@ -1,7 +1,11 @@
 def bestandopen(bestandnaam):
-    """input: bestandsnaam
-output: data
-"""
+    """opent een bestand  en zet de eerste 5 zinnen in data
+    
+    input: 
+    bestandsnaam - string
+    output: 
+    return data
+    """
     bestand = open(bestandnaam)
     data = ""
 
