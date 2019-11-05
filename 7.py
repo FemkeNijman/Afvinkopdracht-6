@@ -1,9 +1,11 @@
 def woordenschrijven(aantalwoorden, bestandnaam):
-"""
-input: aantalwoorden en bestandnaam
-
-output: een nieuw bestand met geschreven woorden
-"""
+    """maakt een nieuw bestand met getypte woorden
+    
+    input:
+    aantalwoorden - int
+    bestandnaam - string
+    output:
+    """
     bestand = open(bestandnaam, "w")
     
     for i in range(aantalwoorden):
