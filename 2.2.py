@@ -4,7 +4,7 @@ def bestandopen(bestandnaam):
     input: 
     bestandsnaam - string
     output: 
-    return data
+    return data - string
     """
     bestand = open(bestandnaam)
     data = ""
