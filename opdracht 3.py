@@ -1,4 +1,11 @@
 def lees_inhoud(bestandnaam):
+    """opent het bestand, split op enters en haalt dakjes weg. Hij splitst ook delen van het bestand in lijsten
+    
+    input:
+    bestandnaam - string
+    output:
+    return namelijst, knipplekken - list
+    """
     bestand = open(bestandnaam)
     namenlijst = []
     knipplekken = []
@@ -11,6 +18,13 @@ def lees_inhoud(bestandnaam):
 
 
 def match(namenlijst, knipplekken, sequentie):
+    """Gaat de sequentie na en kijkt of de sequentie matched met een knipplek. Hij kijkt ook welke naam bij welke knipplek hoort.
+    
+    input:
+    namenlijst, knipplekken - list
+    sequentie - string
+    output: 
+    """
     for i in range(len(knipplekken)):
         positie = sequentie.find(knipplekken[i])
         if positie != -1:
