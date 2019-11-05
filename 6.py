@@ -1,11 +1,13 @@
 import random
 
 def roll(number_of_throws):
+    """geeft een random getal tussen 1 en 6 voor het gegeven aantal keer.
+    
+    input:
+    number_of_throws - int
+    output:
+    return getallenlijst - list
     """
-input: geeft een random getal tussen 1 en 6 x aantal keer
-output: getallenlijst
-of print dat de gebruiker een positief getal moet geven
-"""
     getallenlijst = []
     if number_of_throws > 0:
         for i in range(number_of_throws):
