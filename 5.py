@@ -1,8 +1,11 @@
 def bestandopen(bestandnaam):
+    """opent een bestand, haalt alle witregels weg en zet ze in data
+    
+    input:
+    bestandnaam - string
+    output:
+    return data - string
     """
-input: bestandnaam
-output: data vanuit het bestand
-"""
     bestand = open(bestandnaam)
     data = 0
 
